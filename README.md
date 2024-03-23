@@ -1,2 +1,0 @@
-# flyah
-just a game :>
