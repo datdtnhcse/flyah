@@ -11,7 +11,7 @@ from pygame.locals import *
 pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 pygame.mixer.set_num_channels(24)
-pygame.display.set_caption("Bullet Farmer")
+pygame.display.set_caption("Flyah")
 WINDOWWIDTH = 800
 WINDOWHEIGHT = 500
 screen = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT), 0, 32)
@@ -264,7 +264,7 @@ cursor = 0
 in_menu = True
 while in_menu:
     display.fill((0, 0, 0))
-    text.show_text("Bullet Farmer", 2, 2, 1, 99999, font_0, display)
+    text.show_text("Flyah", 2, 2, 1, 99999, font_0, display)
     # text.show_text("Twitter: DaFluffyPotato", 2, 242, 1, 99999, font_0, display)
     y = 0
     for option in menu:
